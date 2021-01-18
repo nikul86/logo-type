@@ -18,7 +18,7 @@ $(function(){
     $(window).bind('scroll', function(){
         let windowTop = $(this).scrollTop();
         if(windowTop > newsTop) {
-            $('#footer__map').html('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac78ccb2d9dcebbdb647985bd00f6bb1b7b7206d8dcef7456a02bfa2e581820d4&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>')
+            $('.footer__map').html('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac78ccb2d9dcebbdb647985bd00f6bb1b7b7206d8dcef7456a02bfa2e581820d4&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>')
             $(window).unbind('scroll')
         }
     })
