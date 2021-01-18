@@ -782,10 +782,6 @@ h6 {
 	max-width: 630px;
 	width: 100%;
 }
-.footer__map iframe{
-	width: 100%;
-}
-
 .footer__copy {
 	background-color: #303030;
 	text-align: center;
